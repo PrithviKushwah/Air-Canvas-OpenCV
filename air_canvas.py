@@ -96,7 +96,7 @@ while True:
 	# Adding the colour buttons to the live frame
 	# for colour access
 	frame = cv2.rectangle(frame, (40, 1), (140, 65),
-						(122, 122, 122), -1)
+						(122, 122, 122),-1)
 	frame = cv2.rectangle(frame, (160, 1), (255, 65),
 						colors[0], -1)
 	frame = cv2.rectangle(frame, (275, 1), (370, 65),
